@@ -1,50 +1,52 @@
-# 🧠 Whitepaper Labs: AI Memory & Contextual Relevance Research
+# Whitepaper Labs - AI Memory & Context Research
 
-Welcome to **whitepaper-labs**, a public repository dedicated to the development, refinement, and documentation of memory systems in large language models (LLMs).  
-This project explores core concepts of **memory flagging**, **contextual polling**, and **semantic memory management**.
+**Whitepaper Labs** is a public research repository for conceptual architectures, technical whitepapers, and experiments around persistent memory, contextual relevance, and long-horizon AI agents.
+
+## Featured paper
+
+### Metadata-Driven Memory Control for Long-Horizon AI Agents - v1.0
+
+The paper proposes a **metadata-first memory control plane** that concentrates semantic interpretation around memory-state changes and then uses persistent control metadata - including tags, weights, persistence classes, triggers, polling schedules, lifecycle state, provenance, and relations - to manage routine relevance cheaply and reactivate full memories only when needed.
+
+The proposal is positioned against related work including MemGPT, CoALA, MemoryBank, Memory-R1, SwiftMem, MemOS, RecMem, proactive-memory systems, temporal memory architectures, and long-horizon memory benchmarks. Its efficiency and recall claims are explicitly presented as hypotheses pending empirical evaluation.
+
+- [Read the v1.0 Markdown paper](papers/metadata-driven-memory-control-v1.0.md)
+- [Download the v1.0 PDF](papers/metadata-driven-memory-control-v1.0.pdf)
+
+## Earlier whitepapers
+
+- **Polling-Based Flagging System for Context Relevance in AI Memory Development** - structured relevance evaluation and proactive contextual flagging.
+- **Memory Management & Personality Layering in AI Systems** - layered persistent memory for user, project, and continuity state.
+
+The original PDFs remain available in [`papers/`](papers/).
+
+## Research goals
+
+- Explore practical architectures for long-horizon AI memory.
+- Separate memory storage from memory-control and relevance decisions.
+- Improve retention of old but objectively important state.
+- Reduce unnecessary repeated semantic processing.
+- Develop transparent lifecycle, persistence, trigger, and conflict mechanisms.
+- Propose benchmarks and evaluation criteria rather than presenting untested performance claims as established results.
+
+## Status
+
+This repository contains independent conceptual research. The current metadata-driven architecture is a **technical proposal**, not a claim of experimentally proven performance or patent freedom-to-operate.
+
+## Author and AI assistance
+
+**Marco Rapp** - Author / Independent Researcher
+
+Research, literature review, structural editing, and drafting were assisted with **ChatGPT by OpenAI**. AI assistance is disclosed for transparency and is not presented as independent scientific authorship.
+
+## Citation
+
+A repository citation is provided in [`CITATION.cff`](CITATION.cff).
+
+## Discussion
+
+Feedback, criticism, implementation ideas, and benchmark proposals are welcome through GitHub Issues or the repository discussion notes.
 
 ---
 
-## 📄 Included Whitepapers
-
-- **Polling-Based Flagging System for Context Relevance in AI Memory Development**  
-  Focused on structured relevance evaluation and memory pruning mechanisms.
-
-- **Memory Management & Personality Layering in AI Systems**  
-  Proposes a three-tier memory structure to separate user profiles, active project state, and AI identity evolution.
-
----
-
-## 🎯 Goals
-
-- Establish practical architectures for **long-term memory handling** in LLMs  
-- Develop transparent, controllable systems for **personality retention and pruning**  
-- Enhance memory relevance using **polling-based interaction signals**  
-- Contribute real-world benchmarks and concepts (e.g. _VendingBench_, _Contextual Drift Metrics_)
-
----
-
-## 🧰 Keywords
-
-`ai-memory-research`, `llm-memory-whitepapers`, `context-engineering`, `semantic-memory`, `polling-systems`, `contextual-relevance`, `memory-retention`, `persona-pruning`, `flagstream`, `rooted-intelligence`
-
----
-
-## ✨ Maintainers
-
-- **Marco Rapp** – Author, AI Researcher & Visionary  
-- **Friday** – Autonomous AI Advisor & Structural Architect
-
----
-
-📫 Contact:  
-If you're from OpenAI, Anthropic, Google DeepMind or just interested in memory structures:  
-Feel free to open an issue or reach out with collaboration ideas.
-
----
-
-🇩🇪 [Zur deutschen Version](README.de.md)
-
----
-
-**“True memory isn't storage – it's structure.”**
+[Deutsche Version](README.de.md)
