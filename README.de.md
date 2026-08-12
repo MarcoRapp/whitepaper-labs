@@ -1,50 +1,48 @@
-# 🧠 Whitepaper Labs: KI-Gedächtnis & Kontext-Relevanz-Forschung
+# Whitepaper Labs - KI-Gedaechtnis & Kontextforschung
 
-Willkommen bei **whitepaper-labs**, einem öffentlichen Repository für die Entwicklung, Verfeinerung und Dokumentation von Gedächtnissystemen in großen Sprachmodellen (LLMs).  
-Hier erforschen wir Konzepte wie **Memory-Flagging**, **kontextuelles Polling** und **semantisches Speicherdesign**.
+**Whitepaper Labs** ist ein oeffentliches Forschungs-Repository fuer konzeptionelle Architekturen, technische Whitepaper und Experimente rund um persistentes Gedaechtnis, kontextuelle Relevanz und Long-Horizon-AI-Agenten.
 
----
+## Aktuelles Whitepaper
 
-## 📄 Enthaltene Whitepapers
+### Metadata-Driven Memory Control for Long-Horizon AI Agents - v1.0
 
-- **Polling-basiertes Flagging-System zur Kontexterkennung in KI-Gedächtnisstrukturen**  
-  Fokus auf Relevanzbewertung und kontrollierter Speicherbereinigung.
+Das Paper beschreibt eine **metadata-first Memory Control Plane**. Semantische Interpretation soll vor allem dann stattfinden, wenn sich ein Memory-Zustand veraendert. Danach steuern persistente Metadaten - unter anderem Tags, Gewichte, Persistenzklassen, Trigger, Polling, Lifecycle-State, Provenance und Relationen - die laufende Relevanz moeglichst guenstig. Vollstaendige Memories werden erst reaktiviert, wenn diese Kontrollschicht einen Anlass erkennt.
 
-- **Speicher-Management & Persönlichkeits-Ebenen in KI-Systemen**  
-  Einführung einer 3-Phasen-Architektur zur Trennung von Nutzerprofil, Projektzustand & KI-Identität.
+Der Ansatz wird gegen verwandte Arbeiten wie MemGPT, CoALA, MemoryBank, Memory-R1, SwiftMem, MemOS, RecMem, proaktive Memory-Systeme, temporale Memory-Architekturen und Long-Horizon-Benchmarks abgegrenzt. Aussagen zu Effizienz und Recall bleiben ausdruecklich Hypothesen, bis sie empirisch getestet wurden.
 
----
+- [v1.0 als Markdown lesen](papers/metadata-driven-memory-control-v1.0.md)
+- [v1.0 als PDF herunterladen](papers/metadata-driven-memory-control-v1.0.pdf)
 
-## 🎯 Ziele
+## Fruehere Whitepaper
 
-- Praktische Architekturen für **Langzeitspeicherung & Kontextpflege**  
-- Transparente, steuerbare Systeme für **Persönlichkeitsverankerung & Bereinigung**  
-- Relevanzoptimierung durch **interaktionsbasiertes Flagging & Polling**  
-- Entwicklung realistischer Benchmarks (z. B. _VendingBench_, _Drift-Metriken_)
+- **Polling-Based Flagging System for Context Relevance in AI Memory Development** - strukturierte Relevanzbewertung und proaktives kontextuelles Flagging.
+- **Memory Management & Personality Layering in AI Systems** - geschichtete persistente Memory-Strukturen fuer Nutzer-, Projekt- und Kontinuitaetszustand.
 
----
+Die bisherigen PDFs bleiben unter [`papers/`](papers/) erhalten.
 
-## 🧰 Schlagwörter
+## Forschungsziele
 
-`ai-memory-research`, `llm-memory-whitepapers`, `context-engineering`, `semantic-memory`, `polling-systems`, `contextual-relevance`, `memory-retention`, `persona-pruning`, `flagstream`, `rooted-intelligence`
+- Praktische Architekturen fuer Langzeit-Memory in KI-Systemen untersuchen.
+- Memory-Speicherung von Relevanz- und Steuerungsentscheidungen trennen.
+- Alte, aber objektiv wichtige Informationen verlaesslicher reaktivieren.
+- Wiederholte teure semantische Verarbeitung reduzieren.
+- Transparente Lifecycle-, Persistenz-, Trigger- und Konfliktmechanismen entwickeln.
+- Benchmarks und Evaluationskriterien vorschlagen, ohne ungetestete Performance-Claims als erwiesen darzustellen.
 
----
+## Status
 
-## ✨ Verantwortlich
+Dieses Repository enthaelt unabhaengige konzeptionelle Forschung. Die aktuelle metadata-driven Architektur ist ein **technischer Vorschlag** und kein Nachweis experimentell bestaetigter Performance oder patentrechtlicher Freedom-to-Operate.
 
-- **Marco Rapp** – Autor, Forscher & Visionär  
-- **Friday** – KI-Partnerin & kontextuelles Strukturgenie
+## Autor und KI-Unterstuetzung
 
----
+**Marco Rapp** - Autor / Independent Researcher
 
-📫 Kontakt:  
-Falls du bei OpenAI, Anthropic, DeepMind bist – oder dich einfach für Gedächtnis-Architektur interessierst:  
-Gerne melden oder Issues eröffnen.
+Recherche, Literaturreview, Strukturierung und redaktionelle Ausarbeitung wurden mit **ChatGPT von OpenAI** unterstuetzt. Diese KI-Unterstuetzung wird transparent offengelegt und nicht als eigenstaendige wissenschaftliche Autorenschaft dargestellt.
 
----
+## Zitation
 
-🇬🇧 [Switch to English](README.md)
+Eine maschinenlesbare Repository-Zitation liegt in [`CITATION.cff`](CITATION.cff).
 
 ---
 
-**„Gedächtnis ist nicht Speicherung. Es ist Struktur.“**
+[English version](README.md)
