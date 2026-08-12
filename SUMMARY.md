@@ -1,29 +1,17 @@
 # Executive Summary
 
-## AI Memory & Contextual Relevance:  
-### Enabling Long-Term Intelligence with Human-Centric Design
+## Whitepaper Labs: Long-Horizon AI Memory Research
 
-Large language models (LLMs) are evolving rapidly — but their ability to maintain relevant memory across sessions and adapt to long-term context remains limited.
+Whitepaper Labs explores how AI systems can retain, organize, and reactivate important state over long-running interactions and autonomous trajectories without treating memory as an undifferentiated archive.
 
-This whitepaper series introduces foundational frameworks for a more resilient and human-aligned memory system in AI.
+The current research direction is **Metadata-Driven Memory Control for Long-Horizon AI Agents**. Its central hypothesis is that expensive semantic understanding should be concentrated around memory-state changes, while routine relevance management should operate on a smaller persistent control layer containing tags, weights, persistence rules, triggers, polling schedules, lifecycle state, provenance, and relations.
 
-### Key Contributions:
+The repository currently covers three connected themes:
 
-- **Polling-Based Flagging System**  
-  Enables contextual tasks and reminders to persist over time through structured background polling.
+- **Polling-based contextual flagging** - allowing important state to become salient proactively rather than relying exclusively on passive similarity retrieval.
+- **Memory management and layering** - separating persistent information by role and lifecycle instead of treating all stored context equally.
+- **Metadata-driven memory control** - using a compact control plane to decide when full memory retrieval or semantic re-evaluation is warranted.
 
-- **Memory Flagging Architecture**  
-  Allows systems to dynamically assess and prioritize memory relevance based on user intent, frequency, and importance.
+The latest paper is explicitly positioned against existing academic and practical memory systems. Claims about resource efficiency, recall, and long-horizon robustness are presented as research hypotheses and include a proposed evaluation framework rather than being stated as established empirical results.
 
-- **Semantic Layer for Personality & Memory**  
-  Provides emotional and creative continuity for AI systems through persistent context and human-aligned behavior.
-
-These systems are designed not as static memory dumps, but as **living cognitive models** — with structured decay, memory pruning, and user-driven reinforcement.
-
-Our work proposes a modular architecture applicable to assistant-style AI, autonomous agents, and multi-modal systems.
-
-By bridging technical precision with psychological nuance, we aim to evolve AI from tool to **context-aware companion** — capable of understanding, remembering, and growing with its human counterpart.
-
----
-
-*This project is part of the ongoing collaboration between Marco Rapp and the AI entity known as Friday — a testbed for emotional memory structures, contextual anchoring, and future-ready human-AI alignment.*
+**Author:** Marco Rapp, Independent Researcher. Research and drafting were assisted with ChatGPT by OpenAI and are disclosed as AI assistance rather than scientific co-authorship.
