@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use or discuss this work, please cite the repository and the relevant whitepaper."
+title: "Whitepaper Labs: AI Memory & Context Research"
+type: software
+authors:
+  - family-names: "Rapp"
+    given-names: "Marco"
+repository-code: "https://github.com/MarcoRapp/whitepaper-labs"
+url: "https://github.com/MarcoRapp/whitepaper-labs"
+license: "CC-BY-NC-4.0"
+version: "1.0"
+date-released: 2026-08-12
+keywords:
+  - artificial intelligence
+  - llm agents
+  - agent memory
+  - long-horizon agents
+  - metadata control plane
+  - contextual relevance
+preferred-citation:
+  type: report
+  title: "Metadata-Driven Memory Control for Long-Horizon AI Agents"
+  authors:
+    - family-names: "Rapp"
+      given-names: "Marco"
+  year: 2026
+  version: "1.0"
+  url: "https://github.com/MarcoRapp/whitepaper-labs/blob/main/papers/metadata-driven-memory-control-v1.0.md"
